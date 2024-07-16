@@ -1,8 +1,8 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import styled from "styled-components";
-import DetailPageHeader from "../components/DetailPageHeader"; // DetailPageHeader를 import 합니다.
-import { dummy_data } from "../data/dummy_data"; // dummy_data를 불러옵니다.
+import DetailPageHeader from "../components/DetailPageHeader";
+import { dummy_data } from "../data/dummy_data"; 
 
 const HeaderContainer = styled.div`
   padding: 10px;
@@ -87,9 +87,7 @@ const Around2 = styled.div`
 `;
 
 function PostDetailPage() {
-  const { postID } = useParams(); // useParams 훅을 사용하여 postID를 가져옵니다.
-
-  // postID에 해당하는 데이터를 dummy_data에서 찾습니다.
+  const { postID } = useParams();
   const post = dummy_data.find((item) => item.postID === parseInt(postID));
 
   if (!post) {
@@ -98,7 +96,7 @@ function PostDetailPage() {
 
   return (
     <div>
-      <DetailPageHeader /> {/* DetailPageHeader를 사용합니다. */}
+      <DetailPageHeader />
       <HeaderContainer>
         <Title>{post.title}</Title>
         <Around>

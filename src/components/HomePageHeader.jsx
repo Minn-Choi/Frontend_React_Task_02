@@ -14,7 +14,7 @@ const HeaderContainer = styled.div`
 const TopRow = styled.div`
   display: flex;
   justify-content: space-between;
-  align-items: center; /* 수직으로 아이템 가운데 정렬 */
+  align-items: center;
   width: 100%;
   margin-bottom: 20px;
 `;

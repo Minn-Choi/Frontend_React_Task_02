@@ -1,14 +1,3 @@
-// import React from 'react';
-
-// function DetailPageHeader() {
-//     return (
-//         <header>
-//             <h1>Detail Page Header</h1>
-//         </header>
-//     );
-// }
-
-// export default DetailPageHeader;
 import React from "react";
 import styled from 'styled-components';
 
@@ -39,7 +28,6 @@ const LogoContainer = styled.div`
 `;
 
 const Title = styled.h1`
-  /* font-family: "Fira Mono", monospace; */
   margin: 0;
   font-size:21px;
 `;
@@ -84,4 +72,3 @@ function DetailPageHeader() {
 }
 
 export default DetailPageHeader;
-

@@ -35,7 +35,7 @@ const CardContainer = styled.div`
   grid-gap: 32px;
   grid-auto-flow:column;
   justify-content: center;
-  max-width: 1200px; /* 예시로 최대 너비를 설정했습니다. 필요에 따라 조절하세요. */
+  max-width: 1200px;
 `;
 
 function HomePage() {

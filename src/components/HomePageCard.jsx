@@ -91,4 +91,3 @@ function HomePageCard({ title, content, thumbnail, createdAt, photo, writer}) {
 }
 
 export default HomePageCard;
-
