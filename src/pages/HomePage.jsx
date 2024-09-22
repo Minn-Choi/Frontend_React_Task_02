@@ -35,7 +35,7 @@ const CardContainer = styled.div`
   grid-gap: 32px;
   grid-auto-flow:column;
   justify-content: center;
-  max-width: 1200px;
+  max-width: 1205px;
 `;
 
 function HomePage() {
